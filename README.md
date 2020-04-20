@@ -8,7 +8,7 @@
 ## Cura 4.5
 
 ### Start GCODE
-`
+```
   G21 ;metric values
   G90 ;absolute positioning
   M82 ;set extruder to absolute mode
@@ -22,9 +22,9 @@
   G1 F9000
   ;Put printing message on LCD screens
   M117 Printing...
-`
+```
 ### End GCODE
-`
+```
   M104 S0 ;extruder heater off
   M140 S0 ;heated bed heater off (if you have it)
   G91 ;relative positioning
@@ -33,4 +33,4 @@
   G28 X0 Y0 ;move X/Y to min endstops, so the head is out of the way
   M84 ;steppers off
   G90 ;absolute positioning
-`
+```
